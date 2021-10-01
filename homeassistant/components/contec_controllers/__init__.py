@@ -16,7 +16,7 @@ from homeassistant.exceptions import ConfigEntryNotReady
 from .const import DOMAIN
 from .contec_tracer import ContecTracer
 
-PLATFORMS = ["light"]
+PLATFORMS = ["light", "cover", "binary_sensor"]
 
 _LOGGER = logging.getLogger(__name__)
 
